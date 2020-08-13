@@ -1,0 +1,21 @@
+.navbar-container {
+  width: 100%;
+  height: 12vh;
+  .navbar {
+    height: 100%;
+    width: 100%;
+    background-color: #011111;
+
+    .navbar-list {
+      height:100%;
+      width: 100%;
+      display: flex;
+      align-items:center;
+      justify-content: flex-end;
+      list-style: none;
+      .navbar-list-item {
+        margin:15px;
+      }
+    }
+  }
+}
