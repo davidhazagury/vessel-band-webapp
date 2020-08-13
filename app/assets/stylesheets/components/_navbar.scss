@@ -15,6 +15,13 @@
       list-style: none;
       .navbar-list-item {
         margin:15px;
+        a {
+          font-weight: bold;
+          color: white;
+          &:hover {
+            text-decoration-color: #b73132;
+          }
+        }
       }
     }
   }
