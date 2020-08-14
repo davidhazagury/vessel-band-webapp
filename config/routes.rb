@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get 'gallery', to: 'pages#gallery'
   get 'contact', to: 'pages#contact'
   get 'events', to: 'pages#events'
+
+  resources :contacts, only: [:create]
 end
