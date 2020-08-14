@@ -8,5 +8,52 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    position: relative;
+    .logos-container {
+      width: 300px;
+      height: 50px;
+      position: absolute;
+      top: 80vh;
+      right: 73vh;
+      font-size: 40px;
+      .logos-banner-list {
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        i {
+          color: white;
+          transition: transform .2s;
+        }
+        #spotify-logo {
+          &:hover {
+            color:#1DB954;
+            transform: scale(1.5);
+          }
+        }
+        #youtube-logo {
+          &:hover {
+            color:#FF0000;
+            transform: scale(1.5);
+          }
+        }
+        #facebook-logo {
+          &:hover {
+            color:#3b5998;
+            transform: scale(1.5);
+          }
+        }
+        #instagram-logo {
+          &:hover {
+            color:#E1306C;
+            transform: scale(1.5);
+          }
+        }
+    }
+    }
   }
 }
