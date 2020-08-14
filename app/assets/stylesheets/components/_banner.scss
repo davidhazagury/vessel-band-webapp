@@ -9,6 +9,13 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     position: relative;
+    text-align: center;
+    .typed-effect-text-banner {
+      color:white;
+      font-size:70px;
+      font-weight: bold;
+      padding-top: 250px;
+    }
     .logos-container {
       width: 300px;
       height: 50px;
