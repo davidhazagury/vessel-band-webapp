@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about'
   get 'gallery', to: 'pages#gallery'
-  #get 'contact', to: 'pages#contact'
+  get 'contact', to: 'pages#contact'
   get 'events', to: 'pages#events'
 
 resources :contacts, only: [:new, :create]

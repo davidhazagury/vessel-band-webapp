@@ -16,5 +16,6 @@ class PagesController < ApplicationController
   def gallery
   end
   def contact
+    "https://formsubmit.co/davidhernandez_93@hotmail.com"
   end
 end
