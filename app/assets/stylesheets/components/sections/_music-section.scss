@@ -1,5 +1,11 @@
 .music-section {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: #0C0A0A;
+  padding:10%;
+  .spotify-iframe {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
