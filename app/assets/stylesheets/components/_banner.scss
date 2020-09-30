@@ -8,24 +8,17 @@ body {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(rgba(4,4,4,0.19), rgba(12,10,10,1)),
-                      url("https://res.cloudinary.com/dgsqurpio/image/upload/v1599568434/vesselband/aa66bc71-70cf-4c7c-b5e0-cd7a86f45676_yv7em6.jpg");
+                      url("https://res.cloudinary.com/dgsqurpio/image/upload/v1601482382/vesselband/118806531_686300428630540_2078143404910079370_o_sugwqr.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     position: relative;
     text-align: center;
-    .typed-effect-text-banner {
-      color:white;
-      font-size:70px;
-      font-weight: bold;
-      padding-top: 250px;
-      text-shadow: 0px 13px 4px rgba(229, 15, 15, 0.25);
-    }
     .logos-container {
       width: 300px;
       height: 50px;
       position: absolute;
-      top: 80vh;
+      top: 90%;
       right: 73vh;
       font-size: 40px;
       .logos-banner-list {
@@ -66,6 +59,12 @@ body {
           }
         }
     }
+    }
+    .vessel-logo {
+      img {
+        margin-top: 20%;
+        height:400px;
+      }
     }
   }
 }
