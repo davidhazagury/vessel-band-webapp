@@ -16,3 +16,4 @@
 @import "bootstrap/scss/bootstrap";
 @import "pages/index";
 @import "components/index";
+@import 'sections/index';
